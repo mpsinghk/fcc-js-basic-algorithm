@@ -25,4 +25,4 @@ function repeatStringNumTimes(str, num) {
     }
 }
 
-repeatStringNumTimes("abc", 1);
+repeatStringNumTimes("abc", 3);
