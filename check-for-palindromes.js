@@ -10,7 +10,6 @@
  */
 
 function palindrome(str) {
-
     // \W is for all non-alphanumeric characters
     // plus underscore because it is a alphanum character
     var regex = /[\W_]/g;
