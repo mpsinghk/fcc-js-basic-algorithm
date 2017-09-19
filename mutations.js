@@ -16,7 +16,6 @@
 
 // Method 1
 function mutation(arr) {
-
     var searchIn = arr[0].toLowerCase();
     var searchMe = arr[1].toLowerCase();
 
@@ -30,7 +29,6 @@ function mutation(arr) {
 
 // Method 2
 function mutation(arr) {
-
     var searchIn = arr[0].toLowerCase();
     var searchMe = arr[1].toLowerCase().split("");
 
@@ -44,7 +42,6 @@ function mutation(arr) {
 
 // Method 3
 function mutation(arr) {
-
     var searchIn = arr[0].toLowerCase();
     var searchMe = arr[1].toLowerCase().split("");
     var result = true;
