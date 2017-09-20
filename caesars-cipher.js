@@ -19,7 +19,6 @@
 
 // Method 1
 function rot13(str) { // LBH QVQ VG!
-
     var decoded = str.split("").map(function (character) {
         var x = character.charCodeAt(0);
 
@@ -37,7 +36,6 @@ function rot13(str) { // LBH QVQ VG!
 
 // Method 2
 function rot13(str) { // LBH QVQ VG!
-
     var regex = /[A-Z]/g;
 
     return str.replace(regex, function (character) {
