@@ -9,7 +9,6 @@
 
 // Method 1 - for loop
 function largestOfFour(arr) {
-
     var largest = [0, 0, 0, 0];
     for (var i = 0; i < arr.length; i++) {
         for (var j = 0; j < arr[i].length; j++) {
@@ -22,7 +21,6 @@ function largestOfFour(arr) {
 
 // Method 2 - Map and Reduce
 function largestOfFour(arr) {
-
     var largest = arr.map(function (subArray) {
         return subArray.reduce(function (preVal, curVal) {
             return Math.max(preVal, curVal);
