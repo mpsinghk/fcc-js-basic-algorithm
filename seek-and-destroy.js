@@ -8,7 +8,6 @@
 
 // Method 1
 function destroyer(arr) {
-
     var args = Array.prototype.slice.call(arguments, 1);
 
     for (var i = 0; i < arr.length; i++) {
@@ -26,7 +25,6 @@ function destroyer(arr) {
 
 // Method 2
 function destroyer(arr) {
-
     var args = Array.prototype.slice.call(arguments, 1);
 
     return arr.filter(function (value) {
@@ -41,7 +39,6 @@ function destroyer(arr) {
 
 // Method 3
 function destroyer(arr) {
-
     var args = Array.prototype.slice.call(arguments, 1);
 
     return arr.filter(function (value) {
