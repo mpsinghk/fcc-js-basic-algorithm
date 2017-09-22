@@ -9,7 +9,6 @@
 
 // Method 1 - for loop
 function titleCase(str) {
-
     str = str.toLowerCase().split(" ");
     for (var i = 0; i < str.length; i++) {
         str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
@@ -20,7 +19,6 @@ function titleCase(str) {
 
 // Method 2 - replace() method
 function titleCase(str) {
-
     var regex = /(^|\s)[a-z]/g;
 
     return str.replace(regex, function(letter) {
