@@ -20,7 +20,6 @@ function destroyer(arr) {
     return arr.filter(function (value) {
         return Boolean(value);
     });
-
 }
 
 // Method 2
@@ -34,7 +33,6 @@ function destroyer(arr) {
         }
         return true;
     });
-
 }
 
 // Method 3
@@ -47,7 +45,6 @@ function destroyer(arr) {
         }
         return false;
     });
-
 }
 
 destroyer([1, 2, 3, 1, 2, 3], 2, 3);
