@@ -28,6 +28,7 @@ function getIndexToIns(arr, num) {
         if (arr[i] >= num)
             return i;
     }
+    
     return arr.length;
 }
 
@@ -38,6 +39,7 @@ function getIndexToIns(arr, num) {
     arr.sort(function (a, b) {
         return a - b;
     });
+    
     return arr.indexOf(num);
 }
 
