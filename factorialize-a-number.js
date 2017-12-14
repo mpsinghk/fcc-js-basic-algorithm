@@ -9,12 +9,12 @@
  */
 
 function factorialize(num) {
-    if (num < 0) { // Make sure integer is positive
+    if (num < 0) { // Termination condition - Make sure integer is positive
         return;
-    } else if (num === 0) {
+    } else if (num === 0) { // Base case - where recusrions stops
         return 1;
     }
-    
+    // Recursive case
     return num * factorialize(num - 1);
 }
 
