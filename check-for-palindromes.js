@@ -7,6 +7,7 @@
  * Note: You'll need to remove all non-alphanumeric characters
  * (punctuation, spaces and symbols) and turn everything lower case
  * in order to check for palindromes.
+ * Helpful link: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
  */
 
 function palindrome(str) {
