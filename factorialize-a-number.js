@@ -5,6 +5,7 @@
  * Factorials are often represented with the shorthand notation n!
  *
  * For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
+ * Helpful link: https://www.codecademy.com/courses/javascript-lesson-205/0/1
  */
 
 function factorialize(num) {
