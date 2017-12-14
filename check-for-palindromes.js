@@ -11,7 +11,8 @@
 
 function palindrome(str) {
     // \W is for all non-alphanumeric characters
-    // plus underscore because it is a alphanum character
+    // and underscore because it is an alphanum character
+    // square bracket is to form a range so regex will pick either \W or _
     var regex = /[\W_]/g;
 
     return str.replace(regex, "").toLowerCase() === str.replace(regex, "").toLowerCase().split("").reverse().join("");
